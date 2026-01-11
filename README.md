@@ -1,5 +1,5 @@
 # fuck
-You will never be a real programmer. You have no commits, you have no pull requests, you have no public repos. You are a low IQ brown man twisted by an unearned comp sci degree and coding bootcamps into a crude mockery of nature's autism.
+You will never be a real programmer. You have no commits, you have no pull requests, you have no public repos. You are a low IQ ~~brown~~ yellow man twisted by an unearned comp sci degree and coding bootcamps into a crude mockery of nature's autism.
 
 All the “validation” you get is two-faced and from bots. Behind your back people say you're a useless DEI hire. Your parents are disgusted and ashamed of you, your “tech bros” laugh at you behind closed doors.
 
