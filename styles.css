@@ -16,15 +16,13 @@
 .topnav {
     display: flex;
     align-items: center;
-    position: absolute;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
     background-color: var(--bg-black);
     padding: 0px;
     border-bottom: 3px solid var(--border-color);
+    width: 100%;
 }
-
 
 body {
     background-color: var(--bg-color);
@@ -33,32 +31,32 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-.fuck {
-    padding-bottom: 10%;
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    flex-grow: 1;
 }
 
 .header {
-    padding-top: 10%;
     text-align: center;
 }
 
 .footer {
-    align-items: bottom;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--bg-black);
-    padding: 0px;
-    padding-left: 2%;
-    text-align: left;
     color: var(--fg-color);
     border-top: 3px solid var(--border-color);
+    background-color: var(--bg-black);
+    position: relative;
+    padding-left: 2%;
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
 }
 
 a {
@@ -92,7 +90,7 @@ button {
 }
 
 .dropdown-content a:hover { /* Change color of dropdown links on hover */
-    background-color: var(--border-color);
+    background-color: var(--bg-black);
 }
 
 .dropdown:hover .dropdown-content { /* Show the dropdown menu on hover */
